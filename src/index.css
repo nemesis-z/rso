@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root {
+  margin:0 auto;
+  width:100%;
+  max-width:1140px;
+}
+.progress {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+.row {
+  margin: 0;
+}
+.button--add {
+  width: 40px;
+  height: 40px;
+  background: #eee;
+  cursor: pointer;
+}
+.custom-fieldset {
+	padding: .35em .625em .75em;
+	border: 1px solid #c0c0c0;
+}
+legend {
+	display:inline;
+	width:auto;
+	font-size:1rem;
+}
+.fbs {
+	text-align:center;
+}
+.fbs>button {
+	width:50%;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.absolute {
+	position:absolute;
+}
+.loader {
+	z-index: 111; 
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-25px;
+	margin-top:-25px;
+	border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.px-0 {
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.pl-0 {
+  padding-left:0 !important;
+}
+.pr-0 {
+  padding-right:0 !important;
+}
+.py-1 {
+  padding-top:10px !important;
+  padding-bottom:10px !important;
+}
+.my-2 {
+  margin-top:20px !important;
+  margin-bottom:20px !important;
+}
+.mt-1 {
+  margin-top: 10px !important;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.table-custom-hover tbody>tr {
+	cursor:pointer;
+}
+.table-custom-hover tbody>tr:hover {
+	background:#bbffc0;
+}
+@media only screen and (min-width: 992px) {
+  .table-custom-border th, .table-custom-border td {
+    border: 1px solid #f3f3f3;
+  }
+}
+@media (max-width: 767px) {
+	.table-sm-top-margin {
+		margin-top:20px;
+	}
+}
+
+@media (min-width: 575px) {
+	.px-xs-0 {
+		padding-left:0;
+		padding-right:0;
+	}
+	.pr-xs-0 {
+		padding-right:0;
+	}
+}
